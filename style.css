@@ -1,0 +1,86 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    background-color: #fff8f0; 
+    margin: 0;
+    padding: 0;
+    color: #333;
+    text-align:center;
+}
+
+.hero {
+    background: linear-gradient(135deg, #6f4e37, #a67b5b);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.nav-bar {
+    background-color: #f4e1d2;
+    text-align: center;
+    padding: 10px;
+}
+.nav-bar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #6f4e37;
+    font-weight: bold;
+}
+.nav-bar a:hover {
+    color: #a67b5b;
+}
+
+.intro {
+    text-align: center;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    background-color: #fdf6f0;
+}
+.card h3 {
+    color: #6f4e37;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+.gallery img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    text-align:right;
+}
+
+.form-box {
+    max-width: 400px;
+    margin: auto;
+    text-align: left;
+}
+.btn-coffee {
+    background-color: #6f4e37;
+    color: white;
+}
+.btn-coffee:hover {
+    background-color: #a67b5b;
+}
+
+footer {
+    background-color: #6f4e37;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.registration-form {
+  display: flex;
+  align-items: center;
+  gap: 10px; 
+}
+
+.registration-form label {
+  margin-right: 5px;
+}
